@@ -1,0 +1,20 @@
+#include<stdio.h>
+main()
+{
+	int i,o;
+	for(o=1;o<=5;o++)
+     {
+       for(i=o;i<=5;i++)
+       {
+       	 if(i%2==1)
+       	 {
+       	 	printf("%d",1);
+		 }
+		 else
+		 {
+		    printf("%d",0);
+		 }
+	   }
+	   printf("\n");
+	 }
+}
